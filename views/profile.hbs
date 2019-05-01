@@ -1,0 +1,13 @@
+<div class="container">
+
+  {{#if user}}
+
+  <h1>My Profile</h1>
+
+  <p> <b> Name:</b> {{user.username}}</p>
+  <p> <b> GoogleId:</b> {{user.googleId}}</p>
+  <div>
+    <img src="{{user.picture}}" alt="">
+  </div>
+  {{/if}}
+</div>
